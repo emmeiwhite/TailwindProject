@@ -10,6 +10,12 @@ module.exports = {
           200: "#888883",
         },
       },
+      fontSize: {
+        mammoth: ["8rem", { lineHeight: "1" }],
+      },
+      fontFamily: {
+        body: ["Nunito"],
+      },
     },
   },
   plugins: [],

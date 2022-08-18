@@ -8,22 +8,30 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="text-gray-500 font-body grid md:grid-cols-6">
-    <section class="md:col-span-1">
+    <section class="md:col-span-1 md:flex md:justify-end">
       <!-- Navigation -->
       <div>
-        <nav>
+        <nav class="text-right">
           <div>
             <h1
-              class="font-bold uppercase font-bold p-4 border-b border-gray-100 text-green-500 sm:text-blue-700 md:text-orange-500 lg:text-red-700 text-sm md:text-xl hover:text-gray-900"
+              class="font-bold uppercase font-bold p-4 border-b border-gray-100 text-sm md:text-xl hover:text-gray-900"
             >
               Food Ninja
             </h1>
+            <!-- <h1
+              class="font-bold uppercase font-bold p-4 border-b border-gray-100 text-green-500 sm:text-blue-700 md:text-orange-500 lg:text-red-700 text-sm md:text-xl hover:text-gray-900"
+            >
+              Food Ninja
+            </h1> -->
           </div>
 
-          <ul>
+          <ul class="text-sm mt-6">
             <li class="text-gray-700">
-              <a href="#">
-                <span>Home</span>
+              <a
+                href="#"
+                class="flex justify-end mb-3 px-4 border-r-4 border-primary"
+              >
+                <span class="mr-2">Home</span>
                 <svg
                   class="w-5"
                   fill="none"
@@ -41,8 +49,11 @@
               </a>
             </li>
             <li>
-              <a href="#">
-                <span>About</span>
+              <a
+                href="#"
+                class="flex justify-end mb-3 px-4 border-r-4 border-white"
+              >
+                <span class="mr-2">About</span>
                 <svg
                   class="w-5"
                   fill="none"
@@ -60,8 +71,11 @@
               </a>
             </li>
             <li>
-              <a href="#">
-                <span>Contact</span>
+              <a
+                href="#"
+                class="flex justify-end mb-3 px-4 border-r-4 border-white"
+              >
+                <span class="mr-2">Contact</span>
                 <svg
                   class="w-5"
                   fill="none"
